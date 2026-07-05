@@ -2,6 +2,9 @@
 
 This week's assignment was to build a Retrieval-Augmented Generation (RAG) system that can answer questions from a custom document collection instead of relying only on a language model's own knowledge.
 
+## Live Demo
+The project can be live interacted from the streamlit community cloud on this [link](https://hybrid-rag-mlarxiv.streamlit.app/).
+
 ## Overview
 
 The project retrieves relevant chunks from a corpus of ML/AI arXiv paper abstracts and uses those chunks as context for a language model to generate an answer. The idea is that answers should be grounded in the retrieved text rather than made up from the model's own memory.
